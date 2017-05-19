@@ -14,16 +14,16 @@ int menu();
 //Funcion tipos de obras
 int menu_tipoObras();
 
-
 int main(){
-    vector <Obras> obras;
+	  vector <Obras> obras;
     vector <Obras> transferidos;
     bool salir = false;
     while (!salir) {
         switch (menu()) {
         case 1://Agregar
             {
-	switch (menu_tipoObras()) {
+	int temp = menu_tipoObras();
+	switch (temp) {
 		case 1:
             {//Literatura
 		string id,nombre,artista,fecha_ingreso,genero,epoca;
@@ -40,7 +40,7 @@ int main(){
 		cout<<"Ingrese epoca: "<<endl;
 		cin>>epoca;
 		//Agregar al constructor
-
+    break;
 		}//Fin literatura
 		case 2:
             	{//Esculturas
@@ -59,7 +59,7 @@ int main(){
 		cout<<"Ingrese material: "<<endl;
 		cin>>material;
 		//Agregar al constructor
-
+    break;
 		}//Fin esculturas
 		case 3:
             	{//Pinturas
@@ -77,7 +77,7 @@ int main(){
 		cout<<"Ingrese tecnica: "<<endl;
 		cin>>tecnica;
 		//Agregar al constructor
-
+    break;
 		}//Fin pinturas
 		case 4:
             	{//Diseños arquitectonicos
@@ -93,7 +93,7 @@ int main(){
 		cout<<"Ingrese tipo de terreno: "<<endl;
 		cin>>tipo_terreno;
 		//Agregar al constructor
-
+    break;
 		}//Fin diseños
 		}//Fin case menu tipos
                 break;
@@ -130,8 +130,8 @@ int main(){
 
 
 
-  
-}
+
+	}
 }
 return 0;
 }//Fin MAIN
@@ -160,7 +160,7 @@ int menu() {
     return opcion;
 }
 
-int menu_tiposObras() {
+int menu_tipoObras() {
     int opcion;
     bool valido = false;
     do {

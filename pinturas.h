@@ -14,12 +14,12 @@ class Pinturas: public Obras{
   public:
 	//Constructores
 	Pinturas();
-	Pinturas(string,string);
-	
+	Pinturas(string,string,string,string,string,string,string);
+
 	//Mutadores
 	string getMaterial();
 	void setMaterial(string);
-    
+
 	string getTecnica();
 	void setTecnica(string);
     };

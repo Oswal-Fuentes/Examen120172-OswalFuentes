@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Disenos::Disenos(string tipo_terreno){
+Disenos::Disenos(string id,string nombre,string autor,string artista,string fecha_ingreso,string tipo_terreno){
   this->tipo_terreno=tipo_terreno;
 }
 

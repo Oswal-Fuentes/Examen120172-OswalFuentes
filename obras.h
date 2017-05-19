@@ -16,22 +16,22 @@ class Obras{
 	//Constructores
 	Obras();
 	Obras(string,string,string,string,string);
-	
+
 	//Mutadores
 	string getID();
 	void setID(string);
-    
+
 	string getNombre();
 	void setNombre(string);
-    
+
 	string getAutor();
 	void setAutor(string);
-    
+
 	string getArtista();
 	void setArtista(string);
-    
+
 	string getFecha();
-	void setFecha(string);	
+	void setFecha(string);
 };
 
 #endif

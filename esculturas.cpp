@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Esculturas::Esculturas(string id,string nombre,string autor,string artista,string fecha_ingreso,  int peso,string material){
+Esculturas::Esculturas(string id,string nombre,string autor,string artista,string fecha_ingreso, int peso,string material){
   this->peso=peso;
   this->material=material;
 }
