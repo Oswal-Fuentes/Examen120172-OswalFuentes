@@ -1,19 +1,19 @@
-#ifndef DISEÑOS_H
-#define DISEÑOS_H
+#ifndef DISENOS_H
+#define DISENOS_H
 #include <string>
 #include "obras.h"
 
 
 using namespace std;
 
-class Diseños: public Obras{
+class Disenos: public Obras{
 	protected:
 		string tipo_terreno;	
 		
   public:
 	//Constructores
-	Diseños();
-	Diseños(string);
+	Disenos();
+	Disenos(string);
 	
 	//Mutadores
 	string getTipo_terreno();

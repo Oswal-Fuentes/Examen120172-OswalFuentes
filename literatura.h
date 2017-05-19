@@ -10,16 +10,16 @@ class Literatura: public Obras{
 	protected:
 		string genero;
 		string epoca;
-		
+
   public:
 	//Constructores
 	Literatura();
-	Literatura(string,string);
-	
+	Literatura(string,string,string,string,string,string,string);
+
 	//Mutadores
 	string getGenero();
 	void setGenero(string);
-    
+
 	string getEpoca();
 	void setEpoca(string);
     };

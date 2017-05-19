@@ -11,16 +11,16 @@ class Esculturas: public Obras{
 	protected:
 		int peso;
 		string material;
-		
+
   public:
 	//Constructores
 	Esculturas();
-	Esculturas(string,string);
-	
+	Esculturas(string,string,string,string,string,int,string);
+
 	//Mutadores
 	int getPeso();
 	void setPeso(int);
-    
+
 	string getMaterial();
 	void setMaterial(string);
     };
