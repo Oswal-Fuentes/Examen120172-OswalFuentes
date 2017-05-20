@@ -6,6 +6,11 @@
 using namespace std;
 
 Pinturas::Pinturas(string id,string nombre,string autor,string artista,string fecha_ingreso,string material,string tecnica){
+  this->id=id;
+  this->nombre=nombre;
+  this->autor=autor;
+  this->artista=artista;
+  this->fecha_ingreso=fecha_ingreso;
   this->material=material;
   this->tecnica=tecnica;
 }

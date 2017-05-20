@@ -6,6 +6,11 @@
 using namespace std;
 
 Esculturas::Esculturas(string id,string nombre,string autor,string artista,string fecha_ingreso, int peso,string material){
+  this->id=id;
+  this->nombre=nombre;
+  this->autor=autor;
+  this->artista=artista;
+  this->fecha_ingreso=fecha_ingreso;
   this->peso=peso;
   this->material=material;
 }
